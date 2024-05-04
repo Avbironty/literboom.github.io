@@ -13,6 +13,10 @@ body {
     position: relative;
     width: 100%;
     height: 100vh; /* Высота вьюпорта */
+    display: -webkit-flex; /* Для WebKit (Chrome, Safari) */
+    display: -moz-flex; /* Для Firefox */
+    display: -ms-flexbox; /* Для Internet Explorer */
+    display: flex;
 }
 
 /* Первое изображение (слева ниже середины) */
